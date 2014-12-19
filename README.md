@@ -2,53 +2,53 @@
 A curated list of amazingly awesome open source sysadmin resources inspired by [Awesome PHP](https://github.com/ziadoz/awesome-php)
 
 * [Awesome Sysadmin](#awesome-sysadmin)
-  * [Backups](#backups)
-  * [Cloning](#cloning)
-  * [Cloud Computing](#cloud-computing)
-  * [Cloud Storage](#cloud-storage)
-  * [Code Review](#code-review)
-  * [Collaborative Software](#collaborative-software)
-  * [Configuration Management Database](#configuration-management-database)
-  * [Configuration Management](#configuration-management)
-  * [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
-  * [Distributed Filesystems](#distributed-filesystems)
-  * [DNS](#dns)
-  * [Hosting Control Panels](#hosting-control-panels)
-  * [IMAP/POP3](#imappop3)
-  * [IT Asset Management](#it-asset-management)
-  * [LDAP](#ldap)
-  * [Log Management](#log-management)
-  * [Monitoring](#monitoring)
-  * [Metric & Metric Collection](#metric--metric-collection)
-  * [Network Configuration Management](#network-configuration-management)
-  * [Newsletter](#newsletters)
-  * [NoSQL](#nosql)
-  * [Packaging](#packaging)
-  * [Queuing](#queuing)
-  * [RDBMS](#rdbms)
-  * [Security](#security)
-  * [Service Discovery](#service-discovery)
-  * [SMTP](#smtp)
-  * [Software Containers](#software-containers)
-  * [SSH](#ssh)
-  * [Statistics](#statistics)
-  * [Ticketing systems](#ticketing-systems)
-  * [Troubleshooting](#troubleshooting)
-  * [Project Management](#project-management)
-  * [Version control](#version-control)
-  * [Virtualization](#virtualization)
-  * [VPN](#vpn)
-  * [XMPP](#xmpp)
-  * [Web](#web)
-  * [Webmails](#webmails)
-  * [Wikis](#wikis)
+* [Backups](#backups)
+* [Cloning](#cloning)
+* [Cloud Computing](#cloud-computing)
+* [Cloud Storage](#cloud-storage)
+* [Code Review](#code-review)
+* [Collaborative Software](#collaborative-software)
+* [Configuration Management Database](#configuration-management-database)
+* [Configuration Management](#configuration-management)
+* [Continuous Integration & Continuous Deployment](#continuous-integration--continuous-deployment)
+* [Distributed Filesystems](#distributed-filesystems)
+* [DNS](#dns)
+* [Hosting Control Panels](#hosting-control-panels)
+* [IMAP/POP3](#imappop3)
+* [IT Asset Management](#it-asset-management)
+* [LDAP](#ldap)
+* [Log Management](#log-management)
+* [Monitoring](#monitoring)
+* [Metric & Metric Collection](#metric--metric-collection)
+* [Network Configuration Management](#network-configuration-management)
+* [Newsletter](#newsletters)
+* [NoSQL](#nosql)
+* [Packaging](#packaging)
+* [Queuing](#queuing)
+* [RDBMS](#rdbms)
+* [Security](#security)
+* [Service Discovery](#service-discovery)
+* [SMTP](#smtp)
+* [Software Containers](#software-containers)
+* [SSH](#ssh)
+* [Statistics](#statistics)
+* [Ticketing systems](#ticketing-systems)
+* [Troubleshooting](#troubleshooting)
+* [Project Management](#project-management)
+* [Version control](#version-control)
+* [Virtualization](#virtualization)
+* [VPN](#vpn)
+* [XMPP](#xmpp)
+* [Web](#web)
+* [Webmails](#webmails)
+* [Wikis](#wikis)
 * [Resources](#resources)
-  * [Blogs](#blogs)
-  * [Books](#books)
-  * [Editors](#editors)
-  * [Newsletters](#newsletters)
-  * [Repositories](#repositories)
-  * [Websites](#websites)
+* [Blogs](#blogs)
+* [Books](#books)
+* [Editors](#editors)
+* [Newsletters](#newsletters)
+* [Repositories](#repositories)
+* [Websites](#websites)
 * [Contributing](#contributing)
 
 ## Backups
@@ -205,11 +205,13 @@ A curated list of amazingly awesome open source sysadmin resources inspired by [
 * [RackTables](http://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration.
 * [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
 * [Snipe IT](http://snipeitapp.com/) - Asset & license management software.
+* [Itop](http://www.combodo.com/-Overview-.html) - a cmdb with helpdesk awesome
 
 ## LDAP
 *LDAP servers.*
 
 * [389 Directory Server](http://port389.org) - Developed by Red Hat.
+* [Freeipa](www.freeipa.org/page/Main_Page) - upstream of 389 by redhat
 * [Apache Directory Server](http://directory.apache.org/) - Apache Software Foundation project written in Java.
 * [Fusion Directory](http://www.fusiondirectory.org) - Improve the Management of the services and the company directory based on OpenLDAP.
 * [OpenDJ](http://opendj.forgerock.org/) - Fork of OpenDS.
@@ -286,22 +288,22 @@ A curated list of amazingly awesome open source sysadmin resources inspired by [
 *NoSQL databases.*
 
 * Column-Family
-  * [Apache HBase](http://hbase.apache.org/) - Hadoop database, a distributed, big data store.
-  * [Cassandra](http://cassandra.apache.org/) - Distributed DBMS designed to handle large amounts of data across many servers.
-  * [Hypertable](http://hypertable.org/) - C++ based BigTable-like DBMS, communicates through Thrift and runs either as stand-alone or on distributed FS such as Hadoop.
+* [Apache HBase](http://hbase.apache.org/) - Hadoop database, a distributed, big data store.
+* [Cassandra](http://cassandra.apache.org/) - Distributed DBMS designed to handle large amounts of data across many servers.
+* [Hypertable](http://hypertable.org/) - C++ based BigTable-like DBMS, communicates through Thrift and runs either as stand-alone or on distributed FS such as Hadoop.
 * Document Store
-  * [CouchDB](http://couchdb.apache.org/) - Ease of use, with multi-master replication document-oriented database system.
-  * [ElasticSearch](http://www.elasticsearch.org/) - Java based database, popular with log aggregation, and email archiving projects.
-  * [MongoDB](http://www.mongodb.org/) - Another document-oriented database system.
-  * [RavenDB](http://ravendb.net/) - Document based database with ACID/Transactional features.
-  * [RethinkDB](http://www.rethinkdb.com/) - Open source distributed document store database, focuses on JSON.
+* [CouchDB](http://couchdb.apache.org/) - Ease of use, with multi-master replication document-oriented database system.
+* [ElasticSearch](http://www.elasticsearch.org/) - Java based database, popular with log aggregation, and email archiving projects.
+* [MongoDB](http://www.mongodb.org/) - Another document-oriented database system.
+* [RavenDB](http://ravendb.net/) - Document based database with ACID/Transactional features.
+* [RethinkDB](http://www.rethinkdb.com/) - Open source distributed document store database, focuses on JSON.
 * Graph
-  * [FlockDB](https://github.com/twitter/flockdb) - Twitter's distributed, fault-tolerant graph database.
-  * [Neo4j](http://www.neo4j.org/) - Open source graph database.
+* [FlockDB](https://github.com/twitter/flockdb) - Twitter's distributed, fault-tolerant graph database.
+* [Neo4j](http://www.neo4j.org/) - Open source graph database.
 * Key-Value
-  * [LevelDB](https://code.google.com/p/leveldb/) - Google's high performance key/value database.
-  * [Redis](http://redis.io/) - Networked, in-memory, key-value data store with optional durability.
-  * [Riak](http://basho.com/riak/) - Another fault-tolerant key-value NoSQL database.
+* [LevelDB](https://code.google.com/p/leveldb/) - Google's high performance key/value database.
+* [Redis](http://redis.io/) - Networked, in-memory, key-value data store with optional durability.
+* [Riak](http://basho.com/riak/) - Another fault-tolerant key-value NoSQL database.
 
 Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
 
@@ -338,6 +340,10 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [Denyhosts](http://denyhosts.sourceforge.net/) - Thwart SSH dictionary based attacks and brute force attacks.
 * [Fail2Ban](http://www.fail2ban.org/wiki/index.php/Main_Page) - Scans log files and takes action on IPs that show malicious behavior.
 * [SpamAssassin](https://spamassassin.apache.org/) - A powerful and popular email spam filter employing a variety of detection techniques.
+* [ipfire](http://www.ipfire.org/) - a opensource firewall destribution that is fork of ipcop
+* [Pfsense](https://www.pfsense.org/) - a firewall build upon freebsd
+* [vyos](http://vyos.net/wiki/Main_Page) - a opensource router that is a fork of vyatta and maintained by the community
+
 
 ## Service Discovery
 
@@ -483,7 +489,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [ikiwiki](http://ikiwiki.info/) - A wiki compiler.
 * [Mediawiki](http://www.mediawiki.org/wiki/MediaWiki) - Used to power Wikipedia.
 * [MoinMoin](http://moinmo.in/) - An advanced, easy to use and extensible WikiEngine with a large community of users.
- * [Ōlelo Wiki](https://github.com/minad/olelo) - A a wiki that stores pages in a Git repository.
+* [Ōlelo Wiki](https://github.com/minad/olelo) - A a wiki that stores pages in a Git repository.
 * [TiddlyWiki](http://tiddlywiki.com) - Complete interactive wiki in JavaScript.
 
 # Resources
